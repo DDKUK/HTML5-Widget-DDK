@@ -1,0 +1,531 @@
+label {
+color: #999999;
+font-weight: bold;
+font-size:15;
+width: 25.6%;
+float: left;
+line-height: 50px;
+font-family: "Arial", Arial;
+text-align: right;
+margin-top: 10px;
+}
+
+select {
+font-weight: bold;
+display: block;
+width: 50%;
+
+}
+
+
+button {
+
+	width: 805px;
+
+	border: 1px solid #ffffff;
+	background: #e6e6e6 url("pixel/normal_state_submit.png");
+	background-color: transparent;
+	height : 80px;	
+	
+	background-size: 100%;
+	
+	color: #999999;
+	font-weight: regular;
+	font-size:15;
+	font-family: "Arial", Arial;
+	opacity: 1;
+
+
+}
+button:disabled {
+
+	width: 805px;
+	border: 1px solid #ffffff;
+	background: #e6e6e6 url("pixel/normal_state_submit.png");
+	background-color: transparent;
+	height : 80px;	
+	
+	color: #999999;
+	font-weight: regular;
+	font-size:15;
+	font-family: "Arial", Arial;
+	opacity: 0.5;
+	filter:Alpha(Opacity=5); /* support: IE8 */
+
+}
+button:active {
+
+	width: 805px;
+	border: 1px solid #FFFFFF  !important;
+	background: #e6e6e6 url("pixel/down_state_submit.png");
+	background-color: transparent;
+
+	height : 80px;	
+	
+	background-size: 100%;
+	
+	color: #999999;
+	font-weight: regular;
+	font-size:15;
+	font-family: "Arial", Arial;
+
+
+}
+button:focus {outline:0;}
+
+
+.pixelsubmitbutton {
+	border: none !important;
+	background: #e6e6e6 url("pixel/normal_state_submit.png");
+	background-color: transparent;
+	height : 80px;	
+	
+	color: #999999;
+	font-weight: regular;
+	font-size:15;
+	font-family: "Arial", Arial;
+	opacity: 1;
+}
+
+.pixelsubmitbutton : active
+{
+	border: none !important;
+	background: #e6e6e6 url("pixel/down_state_submit.png");
+	background-color: transparent;
+	height : 80px;	
+	
+	color: #BBBBBB;
+	font-weight: regular;
+	font-size:15;
+	font-family: "Arial", Arial;	
+		
+}
+
+.pixelsubmitbutton : disabled
+{
+	border: none !important;
+	background: #e6e6e6 url("pixel/down_state_submit.png");
+	background-color: transparent;
+	height : 80px;	
+	
+	color: #BBBBBB;
+	font-weight: regular;
+	font-size:15;
+	font-family: "Arial", Arial;
+	
+	opacity: .5;
+	filter:Alpha(Opacity=5); /* support: IE8 */
+		
+}
+
+buttonsubmit{
+
+	background-image: url("pixel/normal_state_submit.png") !important;
+	border: 1px solid #d3d3d3;
+	background: #e6e6e6 url("pixel/normal_state_submit.png")  !important;
+	font-weight: bold;
+	color: #555555;
+	height: 50px;
+	
+}
+
+
+buttonok{
+
+	background-image: url("pixel/normal_state_submit.png");
+	border: 1px solid #d3d3d3;
+	background: #e6e6e6 url("pixel/normal_state_submit.png") ;
+	font-weight: bold;
+	color: #555555;
+	height: 50px;
+	
+}
+
+buttonsubmit:disabled{
+
+	background-image: url("images/ui-icons_888888_256x240.png");
+	border: 1px solid #d3d3d3;
+	background: #e6e6e6 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;
+	font-weight: 9;
+	color: #555555;
+	
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+	
+	background-image: url("pixel/background.png");
+	background-size: cover;
+    display: table-cell;
+    vertical-align: middle;
+		
+}
+html {
+    display: table;
+}
+
+
+
+
+
+.inputwide{
+	width: 50%;
+}
+
+
+.dialogbutton{
+
+	border: 1px solid #ffffff;
+	background: #e6e6e6 url("pixel/normal_state_long.png");
+	background-color: transparent;
+	height :77px;	
+	width: 112px;
+	
+	color: #999999;
+	font-weight: regular;
+	font-size:15;
+	font-family: "Arial", Arial;
+	opacity: 1;
+	
+	
+}
+.dialogbutton:active{
+
+
+	border: 1px solid #ffffff;
+	background: transparent url("pixel/downl_state_long.png");
+	height :77px;	
+	width: 112px;
+	color: #999999;
+	font-weight: regular;
+	font-size:15;
+	font-family: "Arial", Arial;
+	opacity: 1;
+	
+	
+}
+
+.pixelinputbox{
+
+	border: none !important;
+	color: #999999 !important;
+	font-weight: bold !important;
+	font-size:15 !important;
+	width: 556px !important;
+	height: 56px !important;
+	
+	webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	margin-bottom: 0px !important;
+	float: left !important;
+	font-family: "Arial", Arial !important;
+	text-align: center !important;
+	margin-top: 10px !important;
+	background: transparent url("pixel/text_section.png") !important;
+
+}
+
+.pixelinputbox:focus{
+
+	border: none !important;
+	
+	color: #999999 !important;
+	font-weight: bold !important;
+	font-size:15 !important;
+	width: 556px !important;
+	height: 56px !important;
+	margin-bottom: 0px !important;
+	
+	webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	
+	float: left !important;
+	font-family: "Arial", Arial !important;
+	text-align: center !important;
+	margin-top: 10px !important;
+	background: transparent url("pixel/down_state_text_field.png") !important;
+
+}
+
+
+
+
+.pixelinputbutton{
+
+	border: none !important;
+	color: #999999;
+	font-weight: bold;
+	font-size:15;
+	width: 40px;
+	height: 50px !important;
+	float: left;
+	font-family: "Arial", Arial;
+	text-align: center;
+	margin-top: 10px;
+	background: transparent url("pixel/end_dropdown.png") !important;
+	
+
+}
+
+.pixelinputbutton:active{
+
+	border: none !important;
+	color: #999999;
+	font-weight: bold;
+	font-size:15;
+	width: 40px;
+	height: 50px !important;
+	float: left;
+	font-family: "Arial", Arial;
+	text-align: center;
+	margin-top: 10px;
+	background: transparent url("pixel/downstate_dropdown.png") !important;
+	
+
+}
+
+.pixelinputbutton:focus{
+	outline:0 !important; 
+}
+
+.pixelkey0{
+
+    line-height: 75px;
+	border: none !important;
+	width: 39px !important;
+	height: 75px !important;
+	float: left;	
+	background: none !important;	
+}
+
+.pixelkey0b{
+
+    line-height: 75px;
+	border: none !important;
+	width: 20px !important;
+	height: 75px !important;
+	float: left;	
+	background: none !important;	
+}
+
+.widget2{
+	width: 805px  !important;
+	margin: 0 auto  !important;
+}
+
+.pixelkey1{
+
+    line-height: 75px;
+	border: none !important;
+	color: #999999;
+	font-weight: regular;
+	font-size:18;
+	width: 76px !important;
+	height: 75px !important;
+	float: left;
+	font-family: "Arial", Arial;
+	text-align: center;
+	vertical-align: middle;
+	background: transparent url("pixel/normal_state.png") !important;	
+}
+.pixelkey1:active{
+
+    line-height: 75px;
+	border: none !important;
+	color: #999999;
+	font-weight: regular;
+	font-size:18;
+	width: 76px !important;
+	height: 75px !important;
+	float: left;
+	font-family: "Arial", Arial;
+	text-align: center;
+	vertical-align: middle;
+	background: transparent url("pixel/downstate.png") !important;	
+}
+
+
+.pixelkey2{
+
+    line-height: 75px;
+	border: none !important;
+	color: #999999;
+	font-weight: regular;
+	font-size:18;
+	width: 112px !important;
+	height: 75px !important;
+	float: left;
+	font-family: "Arial", Arial;
+	text-align: center;
+	background: transparent url("pixel/normal_state_long.png") !important;	
+}
+.pixelkey2:active{
+
+    line-height: 75px;
+	border: none !important;
+	color: #999999;
+	font-weight: regular;
+	font-size:18;
+	width: 112px !important;
+	height: 75px !important;
+	float: left;
+	font-family: "Arial", Arial;
+	text-align: center;
+	background: transparent url("pixel/downl_state_long.png") !important;	
+}
+
+.pixelkey3{
+
+    line-height: 75px;
+	border: none !important;
+	color: #999999;
+	font-weight: regular;
+	font-size:18;
+	width: 446px !important;
+	height: 75px !important;
+	float: left;
+	font-family: "Arial", Arial;
+	text-align: center;
+	background: transparent url("pixel/normal_state_space.png") !important;	
+}
+.pixelkey3:active{
+
+    line-height: 75px;
+	border: none !important;
+	color: #999999;
+	font-weight: regular;
+	font-size:18;
+	width: 446px !important;
+	height: 75px !important;
+	float: left;
+	font-family: "Arial", Arial;
+	text-align: center;
+	background: transparent url("pixel/down_state_space.png") !important;	
+}
+
+.pixelkey4{
+
+    line-height: 75px;
+	border: none !important;
+	color: #999999;
+	font-weight: regular;
+	font-size:18;
+	width: 199px !important;
+	height: 75px !important;
+	float: left;
+	font-family: "Arial", Arial;
+	text-align: center;
+	background: transparent url("pixel/normal_state_bottom_left_123.png") !important;	
+}
+.pixelkey4:active{
+
+    line-height: 75px;
+	border: none !important;
+	color: #999999;
+	font-weight: regular;
+	font-size:18;
+	width: 199px !important;
+	height: 75px !important;
+	float: left;
+	font-family: "Arial", Arial;
+	text-align: center;
+	background: transparent url("pixel/down_state_bottom_left_123.png") !important;	
+}
+
+.pixelkey5{
+
+    line-height: 75px;
+	border: none !important;
+	color: #999999;
+	font-weight: regular;
+	font-size:18;
+	width: 153px !important;
+	height: 75px !important;
+	float: left;
+	font-family: "Arial", Arial;
+	text-align: center;
+	background: transparent url("pixel/normal_state_bottom_right.png") !important;	
+}
+.pixelkey5:active{
+
+    line-height: 75px;
+	border: none !important;
+	color: #999999;
+	font-weight: regular;
+	font-size:18;
+	width: 153px !important;
+	height: 75px !important;
+	float: left;
+	font-family: "Arial", Arial;
+	text-align: center;
+	background: transparent url("pixel/down_state_bottom_right.png") !important;	
+}
+
+
+
+.result-group{
+	position: relative;
+	text-align: center;
+}
+
+.ui-autocomplete { height: 150px; overflow-y: scroll; overflow-x: hidden;}
+
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+	
+}
+.custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+}
+.custom-combobox-input {
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.ui-widget{
+   
+	
+
+}
+
+.noTitleStuff .ui-dialog-titlebar {
+	display:none;
+	vertical-align: middle;
+	
+	}
+
+.submission{
+    text-align:center;		
+}
+
+.showresult {
+  float: center;
+  vertical-align: middle;
+  position: absolute;
+  top: 100%;  
+  text-align: center;
+}
+
+.hidekeys{
+  visibility: hidden;
+}
+
+/* LESS */
+
+.button_for_keyboard {
+
+	background-image: url("images/ui-icons_888888_256x240.png");
+	
+	background: #e6e6e6 url("images/ui-bg_glass_75_e6e6e6_1x400.png") 50% 50% repeat-x;
+	font-weight: 9;
+	color: #555555;
+		
+}

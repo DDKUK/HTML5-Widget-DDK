@@ -1,0 +1,109 @@
+<head>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/jsKeyboard.css" type="text/css" media="screen"/>
+
+<script src="js/jquery-1.11.3.js" type="text/javascript"></script>
+<script src="js/jquery-ui114.js"  type="text/javascript"></script>
+<script src="js/jquery.csv.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script src="js/load_csv_file.js" type="text/javascript"></script>
+<script src="js/autocomplete.js" type="text/javascript"></script>
+
+<meta name="description" content="">
+<meta name="keywords" content="jQuery OnScreen Keyboard">
+<meta name="viewport" content="width=device-width">
+
+
+
+</head>
+
+<body>
+
+<div class="ui-widget widget2">
+
+
+
+	<label>SELECT PLAYER:&nbsp;&nbsp;</label>
+	<select id='selectbox_player' >
+	    <option value="0"></option>
+	</select>
+
+
+
+	<BR/>
+	
+	<label>UPDATE BRAND:&nbsp;&nbsp;</label>
+	<select id='selectbox_brand'  >
+	    <option value="0"></option>
+	</select>
+
+	<BR/>
+	
+	<label>UPDATE SORT CODE:&nbsp;&nbsp;</label>
+	<select id='combobox'>
+	    <option value="0"></option>
+	</select>
+	<BR/>
+
+
+
+
+	<label >UPDATE POSITION:&nbsp;&nbsp;</label>
+	<select id='selectbox_position' >
+	    <option value="0"></option>
+	</select>
+	<BR/>
+
+	<BR/>
+	<BR/>
+
+
+
+
+
+	
+	</div>
+	
+	<div class="submission">
+	
+		<button id = "submit_button" onclick="myFunction(event)" disabled =true>
+			Submit
+		</button>
+		
+	</div>
+	
+	<div class="result-group">
+		
+		<div class="showresult">
+			<p id="j_result"></p>
+			<BR/>
+			&nbsp;
+			<button id="button_retry" class="dialogbutton" onclick="myFunction()">Retry</button>
+			&nbsp;
+			<button id="button_ok" class="dialogbutton" onclick="parent.location='index.html'">Restart</button>
+			&nbsp;
+			<button id="button_close" class="dialogbutton" onclick="closeDialog()">Close</button>
+			&nbsp;
+		</div>
+		
+	</div>
+	
+	<script src="js/control_form.js" type="text/javascript"></script>
+
+
+	<BR/>
+	
+	<div id="virtualKeyboard"></div>
+
+    
+    <script type="text/javascript" src="js/jsKeyboard.js"></script>
+    <script src="js/main.js"></script>
+
+	
+</body>
+
+
