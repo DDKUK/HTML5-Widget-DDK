@@ -64,7 +64,7 @@
 					console.log(posselection[0]);
 					console.log(posselection[1]);
 
-					console.log("Requesting change on " + iteration.getAttribute("server") +" for player ID "+ iteration.getAttribute("sid") + " Changing " + document.getElementById("selectbox_brand").value + ", " + document.getElementById("combobox").value + ", " + posselection[0] + ", " posselection[1] );									
+					console.log("Requesting change on " + iteration.getAttribute("server") +" for player ID "+ iteration.getAttribute("sid") + " Changing " + document.getElementById("selectbox_brand").value + ", " + document.getElementById("combobox").value + ", " + posselection[0] + ", " + posselection[1] );									
 					
 					var data = {
 									'command': 'update_tablet_config',
